@@ -1,0 +1,28 @@
+/*
+
+* Full word means that its refering to a html tag.
+
+* If it starts with a . then its a class
+
+* If it starts with a # its an id
+
+
+*/
+
+body, html {
+    height: 50%;
+    width: 50%;
+}
+
+.bg { 
+    /* The image used */
+    background-image: url("clouds.jpg");
+
+    /* Full height */
+    height: 100%; 
+
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
