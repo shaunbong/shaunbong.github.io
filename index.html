@@ -4,83 +4,27 @@
     <title>Shaun Bong</title>
     <!-- Bootstrap -->
     <link rel="stylesheet" href="styles/bootstrap.css">
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
-    <style>
-      body {
-        text-align: center;
-        font-family: 'Circular', sans-serif;
-        line-height: 32px;
-      }
-      h1, h2, h3, h4, h5 {
-        padding: 5px
-      }
-      nav {
-        background-color: #e9ecef;
-      }
-      img {
-        margin-top:5px;
-        margin-bottom: 10px;
-        height: 64px;
-
-      }
-      button {
-        text-align: center;
-        margin-left: 10px;
-        margin-right: 10px;
-      }
-      .content {
-        text-align: center;
-      }
-      #langauges {
-        max-width: 1280px;
-        margin-left: auto;
-        margin-right: auto;
-      }
-      ul {
-        text-align: left;
-      }
-
-    </style>
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:700|PT+Sans" rel="stylesheet">
+    <link rel="stylesheet" href="styles/style.css">
   </head>
-
   <body>
 
-  <!-- Navigation Bar -->
-  <nav class="navbar navbar-expand-lg navbar-light">
-    <div class="container">
-      <a class="navbar-brand" href="#">Navbar</a>
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse" id="navbarNav">
-        <ul class="navbar-nav">
-          <li class="nav-item active">
-            <a class="nav-link" href="#">Home<span class="sr-only">(current)</span></a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">About Me</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">Machine Learning</a>
-          </li>
-        </ul>
-      </div>
-    </div>
-  </nav>
-
   <!-- Hi I'm Shaun -->
-    <div class="jumbotron jumbotron-fluid">
+    <div id="header" class="jumbotron jumbotron-fluid">
       <div class="container">
-        <h1 style="margin-bottom: 30px">hi i'm shaun and i'm an aspiring data scientist</h1>
-        <button class="btn btn-outline-dark"><strong>Resume</strong></button>
-        <button class="btn btn-outline-dark"><strong>GitHub</strong></button>
-        <button class="btn btn-outline-dark"><strong>Transcript</strong></button>
+        <div class="header-section">
+          <h1>hi i'm shaun and i'm an aspiring data scientist</h1>
+          <p><small>NOTE: This website was created in June, 2018. Minor adjustments have been made since.</small></p>
+          <button id="resume-btn" class="btn btn-outline-dark"><strong>Resume</strong></button>
+          <!-- <button onclick="" class="btn btn-outline-dark"><strong>GitHub</strong></button> -->
+          <button id="transcript-btn" class="btn btn-outline-dark"><strong>Transcript</strong></button>
+        </div>
       </div>
     </div>
 
   <!-- About Me -->
-    <div class="jumbotron jumbotron-fluid" style="background: #cf4647">
-      <div class="container" style="color:white; font-size: 17px;">
+    <div class="jumbotron jumbotron-fluid motivation">
+      <div class="container">
         <h1><strong>motivation</strong></h1>
         <p style="text-align: left;">I want to revolutionise the hiring process experience. Ultimately, the most important outcome
           is that candidates are matched with roles which can leverage their strengths. A
@@ -93,12 +37,10 @@
       </div>
     </div>
 
-  <!-- What can I do? -->
-
     <!-- First row -->
 
-    <div class="jumbotron jumbotron-fluid">
-      <div id="langauges" class="container">
+    <div class="jumbotron jumbotron-fluid grey-section">
+      <div id="languages" class="container">
         <h1><strong>coding experience</strong></h1>
         <div class="row">
           <div class="col-sm-4">
@@ -156,21 +98,21 @@
 
     <div class="jumbotron jumbotron-fluid" style="background: #ffba00">
       <div class="container">
-        <h1 style="color: white"><strong>key strengths</strong></h1>
+        <h1><strong>key strengths</strong></h1>
         <dl style="text-align: left; margin:auto; max-width: 500px;">
           <dt>Fast Learner</dt>
           <dd>
-            I have always believed I am a quick learner, but when asked during an interview I have trouble
+            <p>I have always believed I am a quick learner, but when asked during an interview I have trouble
             answering succinctly. What constitutes a fast learner? How does one prove they are a fast
             learner? As the old saying goes “actions speak louder than words.” The secondary motivation
             behind building this website was to prove to myself and others that I am indeed the swift
             learner I claim to be. Within the span of four days I was able to learn enough HTML, CSS and
             Bootstrap to develop the front-page static website which you are looking at right now with
-            no previous experience in web development.
+            no previous experience in web development.</p>
           </dd>
           <dt>Genuine</dt>
           <dd>
-            Social constructs have manipulated us into believing there is a ‘right’ and ‘wrong’ way to act
+            <p>Social constructs have manipulated us into believing there is a ‘right’ and ‘wrong’ way to act
             around others. The rise in social media has elevated this idea and further ingrained this
             misconception into our minds. Growing up in Australia, I have always seen the world quite
             differently from my peers, partially due to my background, and partially due to my quirky
@@ -179,16 +121,15 @@
             to challenge these social constructs, slowly breaking down the wall of illusions which were
             built upon bad experiences.
             Transparency and genuineness are virtues which are highly important to me and values
-            which I will continue to practice in my future endeavours.
+            which I will continue to practice in my future endeavours.</p>
           </dd>
           <dt>Curiosity</dt>
           <dd>
-            In search of my ‘passion’ I have picked up several hobbies along the way. This year alone I
+            <p>In search of my ‘passion’ I have picked up several hobbies along the way. This year alone I
             have picked up chess, reading, skateboarding and now web development. Although these
             hobbies are independent of my degree, there is something so alluring about learning a new
             skill. Each skill has given me a key takeaway and contributed uniquely towards my personal
-            development. Curiosity and hunger for improvement have always been primary
-            motivators behind my drive towards mastering a skill.
+            motivators behind my drive towards mastering a skill.</p>
           </dd>
         </dl>
       </div>
@@ -231,7 +172,7 @@
             <p>
                 Initially the learning curve was steep for me. I could hardly stand on the board for more than 3 seconds. It was discouraging,
                 but I stuck through it and within a couple weeks I was able to ride to uni without hesitation. Skating taught me that persistence
-                is key and failure is temporary. 
+                is key and failure is temporary.
             </p>
           </div>
         </div>
@@ -242,10 +183,18 @@
     <div class="jumbotron jumbotron-fluid" style="background-color: #0f2d8c">
       <div class="container" style="color: white; max-width:618px;">
         <h1><strong>interested?</strong></h1>
-        <p style="font-size: 18px; font-weight: 500; padding: 5px;">Time is of the essence, interview me right now
+        <p style="padding: 5px;">Time is of the essence, interview me right now
           (a.k.a. read my pre-written interview question responses).</p>
-        <button class="btn btn-outline-light"><strong>Proceed to Screening</strong></button>
+        <button class="btn btn-outline-light"><strong>Coming Soon</strong></button>
       </div>
     </div>
+    <script type="text/javascript">
+      document.getElementById('resume-btn').addEventListener('click', () => {
+        window.open('documents/resume.pdf');
+      });
+      document.getElementById('transcript-btn').addEventListener('click', () => {
+        window.open('documents/transcript.pdf');
+      });
+    </script>
   </body>
 </html>
