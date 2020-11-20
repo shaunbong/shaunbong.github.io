@@ -1,200 +1,32 @@
-<!doctype html>
-<html lang="">
-  <head>
-    <title>Shaun Bong</title>
-    <!-- Bootstrap -->
-    <link rel="stylesheet" href="styles/bootstrap.css">
-    <link href="https://fonts.googleapis.com/css?family=Open+Sans:700|PT+Sans" rel="stylesheet">
-    <link rel="stylesheet" href="styles/style.css">
-  </head>
-  <body>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Goodfellas 2</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
 
-  <!-- Hi I'm Shaun -->
-    <div id="header" class="jumbotron jumbotron-fluid">
-      <div class="container">
-        <div class="header-section">
-          <h1>hi i'm shaun and i'm an aspiring data scientist</h1>
-          <p><small>NOTE: This website was created in June, 2018. Minor adjustments have been made since.</small></p>
-          <button id="resume-btn" class="btn btn-outline-dark"><strong>Resume</strong></button>
-          <!-- <button onclick="" class="btn btn-outline-dark"><strong>GitHub</strong></button> -->
-          <button id="transcript-btn" class="btn btn-outline-dark"><strong>Transcript</strong></button>
-        </div>
-      </div>
+</head>
+<body>
+    <div class="container">
+        <h1>Make your claim now!</h1>
+        <p>Upload your image to find out if you can <i>make a claim</i> for your water damage.</p>
+        <div class="form-group">
+            <div class="input-group mb-3">
+              <div class="custom-file">
+                <input type="file" class="custom-file-input" id="inputGroupFile02">
+                <label class="custom-file-label" for="inputGroupFile02">Choose file</label>
+              </div>
+              <div class="input-group-append">
+                  <button id='upload-btn' class='btn btn-primary'>Upload</button>
+              </div>
+            </div>
+          </div>
+          <div class="container" id="res">
+              
+          </div>
     </div>
-
-  <!-- About Me -->
-    <div class="jumbotron jumbotron-fluid motivation">
-      <div class="container">
-        <h1><strong>motivation</strong></h1>
-        <p style="text-align: left;">I want to revolutionise the hiring process experience. Ultimately, the most important outcome
-          is that candidates are matched with roles which can leverage their strengths. A
-          large emphasis is placed on formal work experience and grades, but I do not believe a person’s
-          calibre can be defined by those attributes alone. Our hobbies, our passions, the
-          way we communicate are all facets which are suppressed and undervalued through
-          our resumes but contribute heavily to who we are and what we stand for. I present
-          this interactive resume as a compromise to showcase my experiences and values as an
-          individual.</p>
-      </div>
-    </div>
-
-    <!-- First row -->
-
-    <div class="jumbotron jumbotron-fluid grey-section">
-      <div id="languages" class="container">
-        <h1><strong>coding experience</strong></h1>
-        <div class="row">
-          <div class="col-sm-4">
-            <img src="images/machine%20learning.png">
-            <h4>Machine Learning</h4>
-            <p>Implemented a wide variety of algorithms using Python and R.
-              Understanding implications of parameter changes and error function minimisation.
-              Primarily worked with gradient descent and expectation maximisation.</p>
-          </div>
-          <div class="col-sm-4">
-            <img src="https://cdn3.iconfinder.com/data/icons/networking-vector-line-2/128/66-512.png">
-            <h4>Parallel Processing</h4>
-            <p>Executed functions in parallel with small datasets (join, sort and groupBy)
-              using Python. Processed text streams using MapReduce in PySpark.
-              Basic understanding of parallel architecture and cost models.</p>
-          </div>
-          <div class="col-sm-4">
-            <img src="images/database.png">
-            <h4>Databases</h4>
-            <p>Worked with structured and unstructured data. Constructed design models and developed
-              into a functioning database. Competent with SQL queries.</p>
-          </div>
-        </div>
-
-        <!-- Second Row -->
-
-        <div class="row">
-          <div class="col-sm-4">
-            <img src="https://opencontext.org/static/oc/images/about/accept-noun-140275.png">
-            <h4>Wrangling</h4>
-            <p>Capable of parsing a variety of data file types into Python. Used Pandas to resolve data
-              quality issues preparing data for analysis stage. Pre-processing includes on outliers,
-              missing data, data integration and feature selection.</p>
-          </div>
-          <div class="col-sm-4">
-            <img src="images/visualisation.png">
-            <h4>Visualisation</h4>
-            <p>Basic understanding of Tableau and RShiny fundamentals.
-              Built interactive visualisations with RShiny.
-              Used Tableau to build budget-oriented dashboards for the UK council during my
-              internship.</p>
-          </div>
-          <div class="col-sm-4">
-            <img src="images/front_end.png">
-            <h4>Front-End Web</h4>
-            <p>Basic understanding of the relationship and functions of CSS and HTML.
-              I built this website completely using HTML, CSS and Bootstrap.</p>
-          </div>
-        </div>
-      </div>
-    </div>
-
-
-    <!-- Key Strengths -->
-
-    <div class="jumbotron jumbotron-fluid" style="background: #ffba00">
-      <div class="container">
-        <h1><strong>key strengths</strong></h1>
-        <dl style="text-align: left; margin:auto; max-width: 500px;">
-          <dt>Fast Learner</dt>
-          <dd>
-            <p>I have always believed I am a quick learner, but when asked during an interview I have trouble
-            answering succinctly. What constitutes a fast learner? How does one prove they are a fast
-            learner? As the old saying goes “actions speak louder than words.” The secondary motivation
-            behind building this website was to prove to myself and others that I am indeed the swift
-            learner I claim to be. Within the span of four days I was able to learn enough HTML, CSS and
-            Bootstrap to develop the front-page static website which you are looking at right now with
-            no previous experience in web development.</p>
-          </dd>
-          <dt>Genuine</dt>
-          <dd>
-            <p>Social constructs have manipulated us into believing there is a ‘right’ and ‘wrong’ way to act
-            around others. The rise in social media has elevated this idea and further ingrained this
-            misconception into our minds. Growing up in Australia, I have always seen the world quite
-            differently from my peers, partially due to my background, and partially due to my quirky
-            interests. I used to suppress those interests and replace them with ‘normal’ hobbies.
-            Naturally, I became very self-aware and responsive to social queues. Over time, I started
-            to challenge these social constructs, slowly breaking down the wall of illusions which were
-            built upon bad experiences.
-            Transparency and genuineness are virtues which are highly important to me and values
-            which I will continue to practice in my future endeavours.</p>
-          </dd>
-          <dt>Curiosity</dt>
-          <dd>
-            <p>In search of my ‘passion’ I have picked up several hobbies along the way. This year alone I
-            have picked up chess, reading, skateboarding and now web development. Although these
-            hobbies are independent of my degree, there is something so alluring about learning a new
-            skill. Each skill has given me a key takeaway and contributed uniquely towards my personal
-            motivators behind my drive towards mastering a skill.</p>
-          </dd>
-        </dl>
-      </div>
-    </div>
-
-    <div class="jumbotron jumbotron-fluid">
-      <div class="container">
-        <h1><strong>beyond coding</strong></h1>
-        <blockquote class="blockquote">
-          <p class="mb-0">
-            Arts and hobbies help us develop unique perspectives which drive us to challenge traditional
-            ideals and cultivate innovation.
-          </p>
-        </blockquote>
-        <div class="row">
-          <div class="col-sm-4">
-            <img src="images/chess.png">
-            <h4>Chess</h4>
-            <p>
-              I'm an avid chess player. This year I have played a little over 1,000 games. I enjoy it
-              because it's purely strategic based. It's all about decision making and being adaptive to your
-              opponent's intentions. Inherently it has taught me to not be so narrow minded and to view things
-              from a wider perspective.
-            </p>
-          </div>
-          <div class="col-sm-4">
-            <img src="images/open-book.png">
-            <h4>Reading</h4>
-            <p>
-              I think reading is a hobby which everyone should pursue. I
-              find it so valuable because it condenses years of knowledge into a single book.
-              I enjoy reading about personal development. While reading does not make you directly
-              smarter or wiser, it plants seeds of thoughts, which if watered consistently can
-              grow to become healthy habits which contribute towards one's wellbeing.
-            </p>
-          </div>
-          <div class="col-sm-4">
-            <img src="images/skateboard.png">
-            <h4>Skating</h4>
-            <p>
-                Initially the learning curve was steep for me. I could hardly stand on the board for more than 3 seconds. It was discouraging,
-                but I stuck through it and within a couple weeks I was able to ride to uni without hesitation. Skating taught me that persistence
-                is key and failure is temporary.
-            </p>
-          </div>
-        </div>
-      </div>
-    </div>
-
-
-    <div class="jumbotron jumbotron-fluid" style="background-color: #0f2d8c">
-      <div class="container" style="color: white; max-width:618px;">
-        <h1><strong>interested?</strong></h1>
-        <p style="padding: 5px;">Time is of the essence, interview me right now
-          (a.k.a. read my pre-written interview question responses).</p>
-        <button class="btn btn-outline-light"><strong>Coming Soon</strong></button>
-      </div>
-    </div>
-    <script type="text/javascript">
-      document.getElementById('resume-btn').addEventListener('click', () => {
-        window.open('documents/resume.pdf');
-      });
-      document.getElementById('transcript-btn').addEventListener('click', () => {
-        window.open('documents/transcript.pdf');
-      });
-    </script>
-  </body>
+    <script src="js/main.js"></script>
+</body>
 </html>

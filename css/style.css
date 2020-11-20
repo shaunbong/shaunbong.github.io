@@ -1,0 +1,26 @@
+.flex-parent {
+  display: flex;
+}
+
+#upload {
+  width: 500px;
+}
+h1,
+p {
+  padding: 10px 0px;
+}
+
+.progress {
+  margin: 20px 0px;
+}
+#demo-img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding-bottom: 10px;
+}
+
+#result-class,
+#result-decision {
+  padding: 10px 0px;
+}
