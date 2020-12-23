@@ -1,0 +1,70 @@
+.jumbotron {
+  margin: 0px;
+  background-color: #f3f3f3;
+}
+
+body {
+  text-align: center;
+  font-family: 'Circular', sans-serif;
+  line-height: 32px;
+}
+
+h1, h2, h3, h4, h5 {
+  padding: 20px;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 0px;
+}
+
+p {
+  font-family: 'PT Sans', sans-serif;
+  font-size: 18px;
+  font-weight: 0px;
+}
+
+img {
+  margin-top:5px;
+  margin-bottom: 10px;
+  height: 64px;
+}
+
+button {
+  text-align: center;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.content {
+  text-align: center;
+}
+
+#languages {
+  max-width: 1280px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+ul {
+  text-align: left;
+}
+
+.motivation {
+  background-color: #cf4647;
+  color:white;
+  font-size: 17px;
+}
+
+.motivation div{
+  background-color: #cf4647;
+  color:white;
+  font-size: 17px;
+  max-width: 900px;
+}
+
+.header-section {
+  padding: 105px;
+
+}
+
+#header h1{
+  margin-bottom: 0px;
+}
